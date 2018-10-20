@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-role-goenv
+goenv_install_path: ~/.goenv
+
+goenv_git_url: git@github.com:syndbg/goenv.git
+goenv_git_update: true

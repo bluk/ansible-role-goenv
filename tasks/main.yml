@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-goenv
+- name: Install goenv
+  git:
+    repo: "{{ goenv_git_url }}"
+    dest: "{{ goenv_install_path }}"
+    update: "{{ goenv_git_update }}"

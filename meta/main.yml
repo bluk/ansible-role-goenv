@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Bryant Luk
+  role_name: goenv
+  description: Installs goenv
+  license: Apache
+  min_ansible_version: 2.6
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - goenv
+    - go
+    - golang
+    - development
+    - system
+    - packaging
+dependencies: []
